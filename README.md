@@ -1,11 +1,11 @@
-# lae1
+# DISCIPLINA: Laboratório de Extensão 1 - lae1
 
 # TRABALHO 01:  Título do Trabalho
 Trabalho desenvolvido durante a disciplina:
 
 # Sumário
 
-### 1. COMPONENTES<br>
+### 1. Componentes <br>
 Integrantes do grupo<br>
 primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
 segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>

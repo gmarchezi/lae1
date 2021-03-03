@@ -34,7 +34,7 @@ Explore conjunto de dados por meio de uma ferramenta (EDA), destacando em suas o
 ...    
 Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matplotlib <br>
     
-![Tutorial básico com Seaborn](https://github.com/profmoisesomena/escience_and_tools/blob/master/seaborn/Seaborn_introduction.ipynb "Seaborn Introduction")
+[Tutorial básico com Seaborn](https://github.com/profmoisesomena/escience_and_tools/blob/master/seaborn/Seaborn_introduction.ipynb "Seaborn Introduction")
 
 ># Marco de Entrega 01: Itens do Sprint 01 <br>
     

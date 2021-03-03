@@ -56,6 +56,8 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
 >...
 >#### 6.2 Processo de estimação/regressão na base de dados obtida:<br>
 >...
+>
+># Marco de Entrega 02: Itens do Sprint 02 <br>
 
 ### 7.Automated machine learning - AutoML <br>
     A) Explicação sobre o que é e o processo de AutoML
@@ -69,6 +71,8 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
 ### 8. Resultados e Artefatos
 >#### 8.1 Slides Finais/Relatório de resultados.
 
+
+># Marco de Entrega 03: Conclusão das atividades <br>
 
 ### 9 FORMATACAO NO GIT:<br> 
 https://help.github.com/articles/basic-writing-and-formatting-syntax/

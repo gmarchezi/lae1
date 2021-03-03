@@ -27,9 +27,9 @@ Realize o Pré Processamento  e Tratamento de Dados em sua base/dataset.
 
 ### 4.Análise Exploratória dos datasets<br>
 Explore conjunto de dados por meio de uma ferramenta (EDA), destacando em suas observações o que for considerado mais relevante.
-#### 4.1 Análise exploratória na base de dados clássica:<br>
-#### 4.2 Análise exploratória na base de dados obtida:<br>
-Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matplotlib <br>
+    #### 4.1 Análise exploratória na base de dados clássica:<br>
+    #### 4.2 Análise exploratória na base de dados obtida:<br>
+    Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matplotlib <br>
     
 ![Tutorial básico com Seaborn](https://github.com/profmoisesomena/escience_and_tools/blob/master/seaborn/Seaborn_introduction.ipynb "Seaborn Introduction")
 
@@ -38,9 +38,9 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
 ### 5.processos de Classificação  (explicação + datasets)<br>
     A) Explicação sobre o algoritmo/método de classificação adotado
     B) Implementar método nos datasets utilzados
-    #### 4.1 Base de dados clássica:<br>
-#### 5.1 Processo de classificação na base de dados clássica:<br>
-#### 5.2 Processo de classificação na base de dados obtida:<br>
+    
+    #### 5.1 Processo de classificação na base de dados clássica:<br>
+    #### 5.2 Processo de classificação na base de dados obtida:<br>
 
 
 

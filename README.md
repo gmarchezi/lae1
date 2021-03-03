@@ -69,7 +69,8 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
 >...
 >
 ### 8. Resultados e Artefatos
->#### 8.1 Slides Finais/Relatório de resultados.
+>#### 8.1 Slides Finais
+>#### 8.3 Demais artefatos solicitados pelo professor
 
 
 ># Marco de Entrega 03: Conclusão das atividades <br>

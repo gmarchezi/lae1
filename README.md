@@ -21,7 +21,7 @@ segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
 * quais são os problemas existentes?
 * qualidade e clareza: garantir que a semântica dos atributos seja clara (nomes coerentes com os dados, se necessário renomear atributos).
 
->#### 2.1 Visão geral dabase de dados clássica:<br>
+>#### 2.1 Visão geral da base de dados clássica:<br>
 >...
 >#### 2.2 Visão geral da base de dados em estudo:<br>
 >... 

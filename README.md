@@ -14,23 +14,33 @@ segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
 ### 2.Apresentação dos Datasets (Clássico + Em estudo)<br>
 <br>Visão geral das bases de dados<br>
 
-> Após obter a base de dados (disponibilizada pelo projeto) Responda as seguintes perguntas sobre seu conjunto de dados:
+> Após obter a(s) base(s) de dados Responda as seguintes perguntas sobre o conjunto de dados:
 * seus dados são sobre o que? 
 * o que você deseja com este conjunto de dados?
 * quais são os tipos de atributos existentes e qual é o atributo alvo? 
 * quais são os problemas existentes?
 * qualidade e clareza: garantir que a semântica dos atributos seja clara (nomes coerentes com os dados, se necessário renomear atributos).
 
-### 3.Pré Processamento dos Datasets <br>
+>#### 2.1 Visão geral dabase de dados clássica:<br>
+>...
+>#### 2.2 Visão geral da base de dados em estudo:<br>
+... 
 
-Realize o Pré Processamento  e Tratamento de Dados em sua base/dataset.
+### 3.Pré-processamento dos Datasets <br>
+
+Realize o Pré-processamento e Tratamento de Dados em sua base/dataset.
+
+>#### 3.1 Pré-processamento e tratamento na base de dados clássica:<br>
+>...
+>#### 3.2 Pré-processamento e tratamento na base de dados em estudo:<br>
+...    
 
 ### 4.Análise Exploratória dos datasets<br>
 Explore conjunto de dados por meio de uma ferramenta (EDA), destacando em suas observações o que for considerado mais relevante.
 
 >#### 4.1 Análise exploratória na base de dados clássica:<br>
 >...
->#### 4.2 Análise exploratória na base de dados obtida:<br>
+>#### 4.2 Análise exploratória na base de dados em estudo:<br>
 ...    
 Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matplotlib <br>
     

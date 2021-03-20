@@ -33,9 +33,9 @@ Realize o Pré-processamento e Tratamento de Dados em sua base/dataset.
 >#### 3.1 Pré-processamento e tratamento na base de dados clássica:<br>
 >...
 >#### 3.2 Pré-processamento e tratamento na base de dados em estudo:<br>
-># 1. Análise de nulos<br>Como os registros possuiam alto número de nulos e possuiamos muitas colunas removemos as colunas que possuiam mais de 90% de seus dados nulos.
-># 2. 50 melhores atributos<br>Utilizando o algoritmo chi2 selecionamos os 50 melhores atributos gerais e utilizamos este mesmo algoritmo para selecionar os 30 melhores atributos de depressão, os 10 de doença crônica e 10 das perguntas gerais. Logo tivemos 2 datasets diferentes para testes.
-># 3. Balanceamento: Fazendo a contagem de pessoas com depressão e pessoas sem a doença conseguimos observar que existiam mais diagnosticos positivos  que negativos então resolvemos realizar um undersample para o balanceamento das informações.
+>1. Análise de nulos<br>Como os registros possuiam alto número de nulos e possuiamos muitas colunas removemos as colunas que possuiam mais de 90% de seus dados nulos.
+>2. 50 melhores atributos<br>Utilizando o algoritmo chi2 selecionamos os 50 melhores atributos gerais e utilizamos este mesmo algoritmo para selecionar os 30 melhores atributos de depressão, os 10 de doença crônica e 10 das perguntas gerais. Logo tivemos 2 datasets diferentes para testes.
+>3. Balanceamento: Fazendo a contagem de pessoas com depressão e pessoas sem a doença conseguimos observar que existiam mais diagnosticos positivos  que negativos então resolvemos realizar um undersample para o balanceamento das informações.
 
 ### 4.Análise Exploratória dos datasets<br>
 Explore conjunto de dados por meio de uma ferramenta (EDA), destacando em suas observações o que for considerado mais relevante.

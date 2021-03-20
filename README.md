@@ -22,11 +22,9 @@ Matheus Oliveira:matheussouzapoliveira@gmai.com<br>
 * qualidade e clareza: garantir que a semântica dos atributos seja clara (nomes coerentes com os dados, se necessário renomear atributos).
 
 >#### 2.1 Visão geral da base de dados clássica:<br>
->A base de dados clássica é o Titanic, essa base de dados possui dados sobre os tripulantes do navio Titanic, de acordo com os atributos existentes, o objetivo é saber se um tripulante sobreviveu ou não sobreviveu ao incidente.
-
-O atributo alvo do Titanic é o "Survived", 0 = Não Sobreviveu e 1 = Sobreviveu. Os problemas encontrados na base de dados foram a coluna "Cabin", que possuia a maioria de suas linhas nulas, a coluna "Age", que possuia 177 linhas nulas.
+>A base de dados clássica é o Titanic, essa base de dados possui dados sobre os tripulantes do navio Titanic, de acordo com os atributos existentes, o objetivo é saber se um tripulante sobreviveu ou não sobreviveu ao incidente.<br>O atributo alvo do Titanic é o "Survived", 0 = Não Sobreviveu e 1 = Sobreviveu. Os problemas encontrados na base de dados foram a coluna "Cabin", que possuia a maioria de suas linhas nulas, a coluna "Age", que possuia 177 linhas nulas.
 >#### 2.2 Visão geral da base de dados em estudo:<br>
->... 
+>O dataset em estudo contém informações sobre uma pesquisa feita com algumas pessoas, essas pessoas responderam algumas perguntas específicas com o objetivo de predizer se esta pessoa possui ou nao depressão. O dataset possui respostas de perguntas sobre depressão (prefixo "D"), doenças crônicas (prefixo "CC") e perguntas gerais para auxilio (prefixo "SC"). Considerando os cinquenta melhores atributos, selecionados utilizando o método chi2, tinhamos 35 colunas numéricas e 15 categóricas. As dificuldades encontradas no dataset além do grande número de colunas foram o alto volume de nulos, principalmente nas colunas com prefixo "D" que são direcionadas à depressão. 
 
 ### 3.Pré-processamento dos Datasets <br>
 
@@ -35,7 +33,9 @@ Realize o Pré-processamento e Tratamento de Dados em sua base/dataset.
 >#### 3.1 Pré-processamento e tratamento na base de dados clássica:<br>
 >...
 >#### 3.2 Pré-processamento e tratamento na base de dados em estudo:<br>
->...    
+># 1. Análise de nulos<br>Como os registros possuiam alto número de nulos e possuiamos muitas colunas removemos as colunas que possuiam mais de 90% de seus dados nulos.
+># 2. 50 melhores atributos<br>Utilizando o algoritmo chi2 selecionamos os 50 melhores atributos gerais e utilizamos este mesmo algoritmo para selecionar os 30 melhores atributos de depressão, os 10 de doença crônica e 10 das perguntas gerais. Logo tivemos 2 datasets diferentes para testes.
+># 3. Balanceamento: Fazendo a contagem de pessoas com depressão e pessoas sem a doença conseguimos observar que existiam mais diagnosticos positivos  que negativos então resolvemos realizar um undersample para o balanceamento das informações.
 
 ### 4.Análise Exploratória dos datasets<br>
 Explore conjunto de dados por meio de uma ferramenta (EDA), destacando em suas observações o que for considerado mais relevante.

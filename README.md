@@ -7,9 +7,9 @@ Trabalho desenvolvido durante a disciplina:
 
 ### 1. Componentes <br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
-...<br>
+Gabriel Marchezi:gabrielmarchezi@gmail.com<br>
+Manoel Rodrigues:manoel.rl@gmail.com<br>
+Matheus Oliveira:matheussouzapoliveira@gmai.com<br>
 
 ### 2.Apresentação dos Datasets (Clássico + Em estudo)<br>
 <br>Visão geral das bases de dados<br>

@@ -22,7 +22,9 @@ Matheus Oliveira:matheussouzapoliveira@gmai.com<br>
 * qualidade e clareza: garantir que a semântica dos atributos seja clara (nomes coerentes com os dados, se necessário renomear atributos).
 
 >#### 2.1 Visão geral da base de dados clássica:<br>
->...
+>A base de dados clássica é o Titanic, essa base de dados possui dados sobre os tripulantes do navio Titanic, de acordo com os atributos existentes, o objetivo é saber se um tripulante sobreviveu ou não sobreviveu ao incidente.
+
+O atributo alvo do Titanic é o "Survived", 0 = Não Sobreviveu e 1 = Sobreviveu. Os problemas encontrados na base de dados foram a coluna "Cabin", que possuia a maioria de suas linhas nulas, a coluna "Age", que possuia 177 linhas nulas.
 >#### 2.2 Visão geral da base de dados em estudo:<br>
 >... 
 

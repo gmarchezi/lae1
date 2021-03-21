@@ -41,8 +41,11 @@ Realize o Pré-processamento e Tratamento de Dados em sua base/dataset.
 
 >#### 3.2 Pré-processamento e tratamento na base de dados em estudo:<br>
 >1- Análise de nulos<br> Através do método "Heatmap" e da função "isnull", verificamos que a base de dados possuia muitos nulos, então decidimos remover as colunas que possuia mais de 90% de seus dados nulos.<br>
+>![Antes da Remoção](https://github.com/gmarchezi/lae1/blob/main/Imagens/Depressao_Analise_Nulos.png?raw=true)
+>![Depois da Remoção](https://github.com/gmarchezi/lae1/blob/main/Imagens/Depressao_Analise_Nulos_2.png?raw=true)
 >2- Melhores atributos<br> Utilizando o algoritmo "chi²" selecionamos os 50 melhores atributos gerais e utilizamos este mesmo algoritmo para selecionar os 30 melhores atributos de depressão, os 10 de doença crônica e 10 das perguntas gerais. Logo tivemos 2 datasets diferentes para testes.<br>
 >3- Balanceamento<br> Fazendo a contagem de pessoas com depressão e pessoas sem a doença conseguimos observar que existiam mais diagnosticos positivos que negativos então resolvemos realizar um "undersample" para o balanceamento das informações e não termos discrepância na precisão dos modelos.<br>
+>![Balanceamento](https://github.com/gmarchezi/lae1/blob/main/Imagens/Balanceamento.png?raw=true)
 
 ### 4.Análise Exploratória dos datasets<br>
 Explore conjunto de dados por meio de uma ferramenta (EDA), destacando em suas observações o que for considerado mais relevante.

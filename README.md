@@ -34,16 +34,18 @@ Realize o Pré-processamento e Tratamento de Dados em sua base/dataset.
 
 >#### 3.1 Pré-processamento e tratamento na base de dados clássica:<br>
 >1- Análise de nulos<br> Através do método "Heatmap" e da função "isnull", verificamos que a coluna "Cabin" possuia nulos na maioria de suas linhas, então resolvemos tirar essa coluna, a coluna "Age" também possuia nulos, mas não era a maioria das linhas, então resolvemos retirar as linhas da base de dados onde o atributo "Age" estava nulo.<br>
->2- Remoção de atributos<br> Retiramos as colunas que a princípio não afetaria no resultado final, como "PassengerId", "Name", "Ticket" e "Embarked".<br>
->3- Label Encoding<br> Utilizamos o método Label Encoding no atributo "Sex", pois se trata de uma variável binária e queriamos trabalhar apenas com números, 0 = Feminino e 1 = Masculino.<br>
+>![Heatmap Titanic](https://github.com/gmarchezi/lae1/blob/main/Imagens/Titanic_Analise_Nulos.png?raw=true)
+>2- Remoção de atributos<br>Retiramos as colunas que a princípio não afetaria no resultado final, como "PassengerId", "Name", "Ticket" e "Embarked".<br>
+>3- Label Encoding<br>Utilizamos o método Label Encoding no atributo "Sex", pois se trata de uma variável binária e queriamos trabalhar apenas com números, 0 = Feminino e 1 = Masculino.<br>
+>![Label Encoding Titanic](https://github.com/gmarchezi/lae1/blob/main/Imagens/Titanic_Label_Encoding.png?raw=true)
 >4- Balanceamento<br> Decidimos balancear os dados, já que a quantidade de "Não Sobreviventes" era maior do que a de "Sobreviventes", então utilizamos o método "undersample" para igualar "Não Sobreviventes" e "Sobreviventes", e não ter discrepância na precisão dos modelos.<br>
 >5- Melhores atributos<br> Através do algoritmo "chi²" nós verificamos quais atributos tinham mais "influência" na base de dados, observamos que a coluna "Fare" tinha uma pontuação muito alta, então decidimos normalizar a coluna e observar a pontuação novamente, o resultado depois na normalização foi mais satisfatório.<br>
 
 >#### 3.2 Pré-processamento e tratamento na base de dados em estudo:<br>
 >1- Análise de nulos<br> Através do método "Heatmap" e da função "isnull", verificamos que a base de dados possuia muitos nulos, então decidimos remover as colunas que possuia mais de 90% de seus dados nulos.<br>
->![Antes da Remoção](https://github.com/gmarchezi/lae1/blob/main/Imagens/Depressao_Analise_Nulos.png?raw=true)
->![Depois da Remoção](https://github.com/gmarchezi/lae1/blob/main/Imagens/Depressao_Analise_Nulos_2.png?raw=true)
->2- Melhores atributos<br> Utilizando o algoritmo "chi²" selecionamos os 50 melhores atributos gerais e utilizamos este mesmo algoritmo para selecionar os 30 melhores atributos de depressão, os 10 de doença crônica e 10 das perguntas gerais. Logo tivemos 2 datasets diferentes para testes.<br>
+>Antes da Remoção<br>![Antes da Remoção](https://github.com/gmarchezi/lae1/blob/main/Imagens/Depressao_Analise_Nulos.png?raw=true)
+>Depois da Remoção<br>![Depois da Remoção](https://github.com/gmarchezi/lae1/blob/main/Imagens/Depressao_Analise_Nulos_2.png?raw=true)
+>2- Melhores atributos<br>Utilizando o algoritmo "chi²" selecionamos os 50 melhores atributos gerais e utilizamos este mesmo algoritmo para selecionar os 30 melhores atributos de depressão, os 10 de doença crônica e 10 das perguntas gerais. Logo tivemos 2 datasets diferentes para testes.<br>
 >3- Balanceamento<br> Fazendo a contagem de pessoas com depressão e pessoas sem a doença conseguimos observar que existiam mais diagnosticos positivos que negativos então resolvemos realizar um "undersample" para o balanceamento das informações e não termos discrepância na precisão dos modelos.<br>
 >![Balanceamento](https://github.com/gmarchezi/lae1/blob/main/Imagens/Balanceamento.png?raw=true)
 

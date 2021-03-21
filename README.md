@@ -34,10 +34,10 @@ Realize o Pré-processamento e Tratamento de Dados em sua base/dataset.
 
 >#### 3.1 Pré-processamento e tratamento na base de dados clássica:<br>
 >1- Análise de nulos<br> Através do método "Heatmap" e da função "isnull", verificamos que a coluna "Cabin" possuia nulos na maioria de suas linhas, então resolvemos tirar essa coluna, a coluna "Age" também possuia nulos, mas não era a maioria das linhas, então resolvemos retirar as linhas da base de dados onde o atributo "Age" estava nulo.<br>
->![Heatmap Titanic](https://github.com/gmarchezi/lae1/blob/main/Imagens/Titanic_Analise_Nulos.png?raw=true)
+>![Heatmap Titanic](https://github.com/gmarchezi/lae1/blob/main/Imagens/Titanic_Analise_Nulos.png?raw=true)<br>
 >2- Remoção de atributos<br>Retiramos as colunas que a princípio não afetaria no resultado final, como "PassengerId", "Name", "Ticket" e "Embarked".<br>
 >3- Label Encoding<br>Utilizamos o método Label Encoding no atributo "Sex", pois se trata de uma variável binária e queriamos trabalhar apenas com números, 0 = Feminino e 1 = Masculino.<br>
->![Label Encoding Titanic](https://github.com/gmarchezi/lae1/blob/main/Imagens/Titanic_Label_Encoding.png?raw=true)
+>![Label Encoding Titanic](https://github.com/gmarchezi/lae1/blob/main/Imagens/Titanic_Label_Encoding.png?raw=true)<br>
 >4- Balanceamento<br> Decidimos balancear os dados, já que a quantidade de "Não Sobreviventes" era maior do que a de "Sobreviventes", então utilizamos o método "undersample" para igualar "Não Sobreviventes" e "Sobreviventes", e não ter discrepância na precisão dos modelos.<br>
 >5- Melhores atributos<br> Através do algoritmo "chi²" nós verificamos quais atributos tinham mais "influência" na base de dados, observamos que a coluna "Fare" tinha uma pontuação muito alta, então decidimos normalizar a coluna e observar a pontuação novamente, o resultado depois na normalização foi mais satisfatório.<br>
 
@@ -53,7 +53,8 @@ Realize o Pré-processamento e Tratamento de Dados em sua base/dataset.
 Explore conjunto de dados por meio de uma ferramenta (EDA), destacando em suas observações o que for considerado mais relevante.
 
 >#### 4.1 Análise exploratória na base de dados clássica:<br>
->...
+>Com o pandas profiling conseguimos observar que existiam 8 variáveis dentre elas 5 do tipo numérica e 3 categoricas. Percebemos também que tiveram mais não sobreviventes que sobreviventes, além disso a quantidade de pessoas do sexo masculino era maior que a de pessoas do sexo feminino e os passageiros em sua maioria possuiam de 20 à 30 anos.<br>
+>Passageiros da terceira classe eram em sua maioria quase 50% dos registros como o esperado por ser a classe mais economica.
 >#### 4.2 Análise exploratória na base de dados em estudo:<br>
 >...    
 Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matplotlib <br>

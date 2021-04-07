@@ -83,20 +83,20 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
 >Para isso utilizamos o método de regressão linear para estimar este valor, o metodo consiste em, definir uma reta que melhor se ajusta aos dados de forma a obter o menor erro possível entre a reta definida pelo modelo e o valor real dado.<br>
 >Com o pandas proffiling e alguns plots conseguimos observar que a temperatura possuia alta correlação entre a Evapotranspiração Potencial (ETP) e a Altitude.<br>
 >1 - Pandas Proffiling<br>
->![Pandas Proffiling]()<br>
+>![Pandas Proffiling](https://github.com/gmarchezi/lae1/blob/main/Imagens/proffiling_correlations.png?raw=true)<br>
 >2 - Temperatura média x ETP<br>
->![Temperatura média x ETP]()<br>
+>![Temperatura média x ETP](https://github.com/gmarchezi/lae1/blob/main/Imagens/temperaturaxetp.png?raw=true)<br>
 >3 - Temperatura média x Altitude<br>
->![Temperatura média x Altitude]()<br>
+>![Temperatura média x Altitude](https://github.com/gmarchezi/lae1/blob/main/Imagens/altitudextemperatura.png?raw=true)<br>
 >Com essa análise criamos o modelo com base no ETP e na Altitude e obtivemos os seguintes resultados. Calculamos a Média do Erro Quadrático (MSE) e o R^2 (R2-Score)<br>
->![Modelo + Resultados 1]()<br>
+>![Modelo + Resultados 1](https://github.com/gmarchezi/lae1/blob/main/Imagens/modelo_resultados_com_ol.png.png?raw=true)<br>
 >Após este resultados fizemos análises de outliers presentes nessas colunas, para isso o parametro padrão que seria 1,5 do IQR foi alterado para 0,75, pois com o primeiro parametro nenhum outlier foi encontrado.<br>
 >ETP<br>
->![Box-plot ETP]()<br>
+>![Box-plot ETP](https://github.com/gmarchezi/lae1/blob/main/Imagens/box_plot_etp.png?raw=true)<br>
 >Altitude<br>
->![Box-plot Altitude]()<br>
+>![Box-plot Altitude](https://github.com/gmarchezi/lae1/blob/main/Imagens/box_plot_altitude.png?raw=true)<br>
 >Removendo esses valores encontrados treinamos novamente o modelo, porém não obtivemos um resultado muito diferente.<br>
->![Modelo + Resultados 1]()<br>
+>![Modelo + Resultados 2](https://github.com/gmarchezi/lae1/blob/main/Imagens/modelo_resultados_sem_ol.png?raw=true)<br>
 >#### 6.2 Processo de estimação/regressão na base de dados obtida:<br>
 >...
 >

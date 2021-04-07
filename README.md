@@ -79,7 +79,24 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
     B) Implementar método nos datasets utilizados
     
 >#### 6.1 Processo de estimação/regressão na base de dados clássica:<br>
->...
+>O método de estimação foi aplicado no dataset de meteologia disponibilado pelo professor. O dataset possui informações sobre volumes de chuva, evapotranspiração real e potencial, latitude e longitude sobre municícipios do estado do Espiríto Santo. Nosso objetivo era estimar a temperatura média anual desses municípios dado os atributos disponíveis.
+>Para isso utilizamos o método de regressão linear para estimar este valor, o metodo consiste em, definir uma reta que melhor se ajusta aos dados de forma a obter o menor erro possível entre a reta definida pelo modelo e o valor real dado. 
+>Com o pandas proffiling e alguns plots conseguimos observar que a temperatura possuia alta correlação entre a Evapotranspiração Potencial (ETP) e a Altitude
+>1 - Pandas Proffiling
+>![Pandas Proffiling]()
+>2 - Temperatura média x ETP
+>![Temperatura média x ETP]()
+>3 - Temperatura média x Altitude
+>![Temperatura média x Altitude]()
+>Com essa análise criamos o modelo com base no ETP e na Altitude e obtivemos os seguintes resultados. Calculamos a Média do Erro Quadrático (MSE) e o R^2 (R2-Score) 
+>![Modelo + Resultados 1]()
+>Após este resultados fizemos análises de outliers presentes nessas colunas, para isso o parametro padrão que seria 1,5 do IQR foi alterado para 0,75, pois com o primeiro parametro nenhum outlier foi encontrado.
+>ETP
+>![Box-plot ETP]()
+>Altitude
+>![Box-plot Altitude]()
+>Removendo esses valores encontrados treinamos novamente o modelo, porém não obtivemos um resultado muito diferente
+>![Modelo + Resultados 1]()
 >#### 6.2 Processo de estimação/regressão na base de dados obtida:<br>
 >...
 >

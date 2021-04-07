@@ -56,7 +56,7 @@ Explore conjunto de dados por meio de uma ferramenta (EDA), destacando em suas o
 >Com o pandas profiling conseguimos observar que existiam 8 variáveis dentre elas 5 do tipo numérica e 3 categoricas. Percebemos também que tiveram mais não sobreviventes que sobreviventes, além disso a quantidade de pessoas do sexo masculino era maior que a de pessoas do sexo feminino e os passageiros em sua maioria possuiam de 20 à 30 anos.<br>
 >Passageiros da terceira classe eram em sua maioria quase 50% dos registros como o esperado por ser a classe mais economica.
 >#### 4.2 Análise exploratória na base de dados em estudo:<br>
->...    
+>Com o pandas profiling conseguimos obervar a quantidade de variáveis e a quantidade de cada tipo também, sendo 35 Numéricas e 15 Categóricas já que filtramos os 50 melhores atributos de acordo com o chi², também podemos observar a porcentagem de nulos em cada coluna, quantidade total de células nulas, média das respostas de cada variável numérica.    
 Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matplotlib <br>
     
 [Tutorial básico com Seaborn](https://github.com/profmoisesomena/escience_and_tools/blob/master/seaborn/Seaborn_introduction.ipynb "Seaborn Introduction")
@@ -68,9 +68,10 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
     B) Implementar método nos datasets utilizados
     
 >#### 5.1 Processo de classificação na base de dados clássica:<br>
->...
+>A regressão logística é um recurso que nos permite estimar a probabilidade associada à ocorrência de determinado evento em face de um conjunto de variáveis explanatórias.<br>
+>Após o pré processamento feito na base de dados Titanic inciamos a regrassão logística, definimos as bases de teste e treino, sendo 75% da base de dados para treino e 25% para teste, então criamos o modelo e o treinamos com as bases de treino, "X_train" são as variáveis explanatórias e "y_train" é a variável alvo, verificamos a precisão do modelo com as bases teste para comparar. Logo após, rodamos o modelo com as bases de teste e comparamos as precisões e verificamos se estão coerentes e se estão com uma boa precisão.
 >#### 5.2 Processo de classificação na base de dados obtida:<br>
->...
+>
 
 
 ### 6.processos de Estimação  (explicação + datasets)<br>

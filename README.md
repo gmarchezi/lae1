@@ -89,7 +89,7 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
 >3 - Temperatura média x Altitude<br>
 >![Temperatura média x Altitude](https://github.com/gmarchezi/lae1/blob/main/Imagens/altitudextemperatura.png?raw=true)<br>
 >Com essa análise criamos o modelo com base no ETP e na Altitude e obtivemos os seguintes resultados. Calculamos a Média do Erro Quadrático (MSE) e o R^2 (R2-Score)<br>
->![Modelo + Resultados 1](https://github.com/gmarchezi/lae1/blob/main/Imagens/modelo_resultados_com_ol.png.png?raw=true)<br>
+>![Modelo + Resultados 1](https://github.com/gmarchezi/lae1/blob/main/Imagens/modelo_resultados_com_ol.png?raw=true)<br>
 >Após este resultados fizemos análises de outliers presentes nessas colunas, para isso o parametro padrão que seria 1,5 do IQR foi alterado para 0,75, pois com o primeiro parametro nenhum outlier foi encontrado.<br>
 >ETP<br>
 >![Box-plot ETP](https://github.com/gmarchezi/lae1/blob/main/Imagens/box_plot_etp.png?raw=true)<br>

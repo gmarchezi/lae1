@@ -113,8 +113,11 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
 >
 ### 8. Resultados e Artefatos
 >#### 8.1 Slides Finais
+>[Apresentação Final](https://github.com/gmarchezi/lae1/blob/main/Apresenta%C3%A7%C3%A3o%20Final.pdf)
 >#### 8.3 Demais artefatos solicitados pelo professor
-
+>[Vídeo Apresentação Final](https://youtu.be/jUtOoAX2pY4)<br>
+>[Notebook Depressão](https://github.com/gmarchezi/lae1/blob/main/Notebook_Depress%C3%A3o.ipynb)<br>
+>[Notebook Titanic](https://github.com/gmarchezi/lae1/blob/main/Notebook_Titanic.ipynb)<br>
 
 ># Marco de Entrega 03: Conclusão das atividades <br>
 

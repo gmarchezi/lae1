@@ -71,7 +71,13 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
 >A regressão logística é um recurso que nos permite estimar a probabilidade associada à ocorrência de determinado evento em face de um conjunto de variáveis explanatórias.<br>
 >Após o pré processamento feito na base de dados Titanic inciamos a regrassão logística, definimos as bases de teste e treino, sendo 75% da base de dados para treino e 25% para teste, então criamos o modelo e o treinamos com as bases de treino, "X_train" são as variáveis explanatórias e "y_train" é a variável alvo, verificamos a precisão do modelo com as bases teste para comparar. Logo após, rodamos o modelo com as bases de teste e comparamos as precisões e verificamos se estão coerentes e se estão com uma boa precisão.
 >#### 5.2 Processo de classificação na base de dados obtida:<br>
->
+>Como feito para o dataset clássico utilizamos o metodo de regressão logistica para o dataset de depressão a fim de estimar se a pessoa que respondia o questionário possuia ou não depressão. Para isso utilizamos o método LogistRegression do sklearn para a criação do nosso modelo.<br>
+>A principal diferença está no tamanho das bases de teste e treino. Definimos 80% dos registros para treino e 20% para testes e com os hiperparametros random_state=100, C=3, max_iter=100000 criamos o modelo e tiramos a acurácia como primeira métrica para verificarmos a qualidade do nosso modelo.<br>
+![Criação do modelo e acurácia](https://github.com/gmarchezi/lae1/blob/main/Imagens/primeira_metrica_acuracia_depressao.png?raw=true)<br>
+>A partir disso para outras métricas e análises criamos a matriz de confusão e criamos um simples reports com os valores de precision, f1 e recall.<br>
+![Criação do modelo e acurácia](https://github.com/gmarchezi/lae1/blob/main/Imagens/matriz_confusao_report.png?raw=true)<br>
+>Utilizamos o kfold  para dividir nosso modelo em cinco partes e tiramos as mesmas métricas anteriores, agora utilizando a média do desempenho do modelo em cada partição.<br>
+![KFold](https://github.com/gmarchezi/lae1/blob/main/Imagens/kfold_depressao.png?raw=true)<br>
 
 
 ### 6.processos de Estimação  (explicação + datasets)<br>

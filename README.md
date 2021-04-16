@@ -105,7 +105,8 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
 ### 7.Automated machine learning - AutoML <br>
     A) Explicação sobre o que é e o processo de AutoML
     B) Aplicar o processo de AutoML nos conjuntos de dados utilizados
-    
+>O AutoMl é uma biblioteca derivada do sklearn que permite automatizar o processo de Machine Learning, principalmente na descoberta de qual é o melhor algoritmo a ser usado para
+determinado dataset, ele possui uma base de dados de mais de 100 datasets e com base nesses datasets que ele foi treinado, ele escolhe os melhores algoritmos para criar um modelo com base no dataset que é colocado como parâmetro, além disso é possível ver um ranking de algoritmos, seus respectivos hiperparâmetros e suas precisões de modelo.<br>
 >#### 7.1 Processo de AutoML na base de dados clássica:<br>
 >![automl-titanic](https://github.com/gmarchezi/lae1/blob/main/Imagens/automl_titanic2.JPG?raw=true)
 >![automl-titanic](https://github.com/gmarchezi/lae1/blob/main/Imagens/automl_titanic.JPG?raw=true)

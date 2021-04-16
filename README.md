@@ -107,8 +107,10 @@ Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matp
     B) Aplicar o processo de AutoML nos conjuntos de dados utilizados
     
 >#### 7.1 Processo de AutoML na base de dados clássica:<br>
+>![automl-titanic](https://github.com/gmarchezi/lae1/blob/main/Imagens/automl_titanic2.JPG?raw=true)
 >![automl-titanic](https://github.com/gmarchezi/lae1/blob/main/Imagens/automl_titanic.JPG?raw=true)
 >#### 7.2 Processo de AutoML na base de dados obtida:<br>
+>![automl-depressao](https://github.com/gmarchezi/lae1/blob/main/Imagens/automl_depressao2.JPG?raw=true)
 >![automl-depressao](https://github.com/gmarchezi/lae1/blob/main/Imagens/automl_depressao.JPG?raw=true)
 >
 ### 8. Resultados e Artefatos

@@ -55,8 +55,21 @@ Explore conjunto de dados por meio de uma ferramenta (EDA), destacando em suas o
 >#### 4.1 Análise exploratória na base de dados clássica:<br>
 >Com o pandas profiling conseguimos observar que existiam 8 variáveis dentre elas 5 do tipo numérica e 3 categoricas. Percebemos também que tiveram mais não sobreviventes que sobreviventes, além disso a quantidade de pessoas do sexo masculino era maior que a de pessoas do sexo feminino e os passageiros em sua maioria possuiam de 20 à 30 anos.<br>
 >Passageiros da terceira classe eram em sua maioria quase 50% dos registros como o esperado por ser a classe mais economica.
+>![Titanic_Age](https://github.com/gmarchezi/lae1/blob/main/Imagens/pandas_titanic_1.JPG?raw=true)
+>![Titanic_Sex](https://github.com/gmarchezi/lae1/blob/main/Imagens/pandas_titanic_2.JPG?raw=true)
+>![Titanic_Survived](https://github.com/gmarchezi/lae1/blob/main/Imagens/pandas_titanic_3.JPG)
+>![Titanic_Correlations](https://github.com/gmarchezi/lae1/blob/main/Imagens/pandas_titanic_5.JPG?raw=true)
 >#### 4.2 Análise exploratória na base de dados em estudo:<br>
->Com o pandas profiling conseguimos obervar a quantidade de variáveis e a quantidade de cada tipo também, sendo 35 Numéricas e 15 Categóricas já que filtramos os 50 melhores atributos de acordo com o chi², também podemos observar a porcentagem de nulos em cada coluna, quantidade total de células nulas, média das respostas de cada variável numérica.    
+>Com o pandas profiling conseguimos obervar a quantidade de variáveis e a quantidade de cada tipo também, sendo 35 Numéricas e 15 Categóricas já que filtramos os 50 melhores atributos de acordo com o chi², também podemos observar a porcentagem de nulos em cada coluna, quantidade total de células nulas, média das respostas de cada variável numérica.
+>* #### D37D: Como foi (o seu/a primeira vez que o(a) Sr(a). teve um) episódio desse tipo---começou sem motivo, após a morte de uma pessoa próxima ou em resposta a alguma experiência estressante que tinha acontecido com o(a) Sr(a).?
+>##### RESPOSTAS: 1 = SEM CAUSA, 2 = MORTE DE UMA PESSOA PRÓXIMA, 3 = RESPOSTA AO ESTRESSE, 8 = NÃO SABE, 9 = RECUSOU.
+>![D37D](https://github.com/gmarchezi/lae1/blob/main/Imagens/pandas_depre_2.JPG?raw=true)<br>
+>* #### D26L: Todos os dias,o(a) Sr(a). falava ou se movia mais lentamente do que o habitual?
+>##### RESPOSTAS: 1 = SIM, 2 = NÃO, 3 = NÃO SABE
+>![](https://github.com/gmarchezi/lae1/blob/main/Imagens/pandas_depre_3.JPG?raw=true)<br>
+>* #### D64A: A primeira série se refere a dificuldades para dormir:
+>##### 1 = Demorava menos de 30 minutos para pegar no sono, 2 = Demorava no mínimo 30 minutos para pegar no sono, menos do que a metade das noites, 3 = Demorava no mínimo 30 minutos para pegar no sono, mais do que a metade das noites, 4 = Demorava mais de 60 minutos para pegar no sono, mais do que a metade das noites.
+>![](https://github.com/gmarchezi/lae1/blob/main/Imagens/pandas_depre_4.JPG?raw=true)<br>
 Sugestão: Utilizar ferramentas como Pandas Proffile e Sweetviz , Seaborn e Matplotlib <br>
     
 [Tutorial básico com Seaborn](https://github.com/profmoisesomena/escience_and_tools/blob/master/seaborn/Seaborn_introduction.ipynb "Seaborn Introduction")
